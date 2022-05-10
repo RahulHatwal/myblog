@@ -1,14 +1,14 @@
 import './header.css'
-import cover from '../Images/cover1.png'
+import cover from '../Images/cover2.jpg'
 
 export default function Header() {
   return (
     <div className='header'>
+      <img className='headerImg' src={cover} alt='' />
       <div className='headerTitles'>
-        <span className='headerTitleSmall'>React & Node JS</span>
+        <span className='headerTitleSmall'>Rahul Hatwal</span>
         <span className='headerTitleLarge'>Blog</span>
       </div>
-      <img src={cover} alt='' className='headerImg' />
     </div>
   )
 }
