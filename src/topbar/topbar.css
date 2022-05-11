@@ -1,5 +1,5 @@
 .top {
-  height: 50px;
+  height: 60px;
   width: 100%;
   background-color: white;
   position: sticky;
@@ -10,7 +10,7 @@
 }
 
 .topIcon {
-  font-size: 20px;
+  font-size: 30px;
   color: #444;
   margin-right: 10px;
   cursor: pointer;
@@ -26,6 +26,7 @@
 
 .topCenter {
   flex: 6;
+  padding-top: 4px;
 }
 
 .topList {
@@ -37,20 +38,20 @@
 
 .topListItem {
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 300;
   cursor: pointer;
 }
 
 .topImage {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .topSearchIcon {
-  font-size: 16px;
+  font-size: 24px;
   color: #666;
   cursor: pointer;
   margin-left: 15px;
