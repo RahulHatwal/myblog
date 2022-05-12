@@ -1,5 +1,5 @@
 import './sidebar.css'
-import userAvatar from '../Images/avatar.png'
+import userAvatar from '../../Images/avatar.png'
 
 export default function Sidebar() {
   return (

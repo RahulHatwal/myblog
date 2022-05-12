@@ -1,5 +1,5 @@
 import './header.css'
-import cover from '../Images/cover2.jpg'
+import cover from '../../Images/cover2.jpg'
 
 export default function Header() {
   return (
