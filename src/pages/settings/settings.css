@@ -1,0 +1,88 @@
+.settings {
+  display: flex;
+  text-transform: capitalize;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+
+.settingsDeleteTitle {
+  font-size: 12px;
+  color: red;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPP {
+  display: flex;
+  margin: 10px 0px;
+  align-items: center;
+}
+
+.settingsPP > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.settingsForm > label {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.settingsForm > input {
+  color: gray;
+  height: 30px;
+  margin: 20px 0px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit {
+  width: 150px;
+  align-self: center;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.settingsForm > input:focus {
+  outline: 2px solid teal;
+  /* border-bottom: 1px solid teal; */
+}
