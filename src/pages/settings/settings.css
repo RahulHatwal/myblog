@@ -84,5 +84,4 @@
 
 .settingsForm > input:focus {
   outline: 2px solid teal;
-  /* border-bottom: 1px solid teal; */
 }
