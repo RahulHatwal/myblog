@@ -1,5 +1,6 @@
 import './post.css'
 import postImage from '../../Images/dummyPostImg.jpg'
+import { Link } from 'react-router-dom'
 
 export default function Post() {
   return (
@@ -10,7 +11,9 @@ export default function Post() {
           <span className='postCat'>music</span>
           <span className='postCat'>life</span>
         </div>
-        <span className='postTitle'>Lorem ipsum dolor sit</span>
+        <Link className='link' to={'/post/${post._id}'}>
+          <span className='postTitle'>Lorem ipsum dolor sit</span>
+        </Link>
         <hr />
         <span className='postDate'>1 hour ago</span>
       </div>

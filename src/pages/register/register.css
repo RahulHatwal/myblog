@@ -32,6 +32,7 @@
 }
 
 .registerBtn {
+  /* position: static; */
   text-transform: capitalize;
   margin-top: 20px;
   background-color: teal;
@@ -42,15 +43,15 @@
   cursor: pointer;
 }
 
-.loginBtn {
-  text-transform: capitalize;
+.registerLoginBtn {
   position: absolute;
+  text-transform: capitalize;
   top: 70px;
   right: 20px;
   background-color: lightcoral;
   border: none;
   border-radius: 10px;
-  padding: 10px 15px;
+  padding: 10px;
   color: white;
   cursor: pointer;
 }
